@@ -26,6 +26,7 @@
     "@angular/router": "^14.3.0",
     "core-js": "^3.5.0",
     "jquery": "^3.5.0",
+    "mime-types": "^2.1.35",
     "rxjs": "^6.5.3",
     "summernote": "^0.8.18",
     "tslib": "^2.0.0",
