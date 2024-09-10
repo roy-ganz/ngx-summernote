@@ -13,6 +13,7 @@
     "url": "https://github.com/lula/ngx-summernote.git"
   },
   "dependencies": {
+    "husky": "^9.1.5",
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
@@ -20,5 +21,8 @@
     "@angular/core": "14.x - 16.x",
     "@angular/forms": "14.x - 16.x",
     "summernote": ">=0.8.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.3"
   }
 }

@@ -40,10 +40,10 @@ export class NgxSummernoteDirective
       }
 
       options.callbacks = {
-        ...options.callbacks,
         onImageUpload: files => this.uploadImage(files),
         onMediaDelete: files =>
-          this.mediaDelete.emit({ url: $(files[0]).attr('src') })
+          this.mediaDelete.emit({ url: $(files[0]).attr('src') }),
+          ...options.callbacks
       };
 
       // add custom buttons
